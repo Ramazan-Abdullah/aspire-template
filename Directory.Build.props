@@ -13,6 +13,12 @@
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
 
 	<NoWarn>NU1608</NoWarn>
+
+    <!-- Assembly / package metadata stamped on every project in the solution. -->
+    <Authors>Ramazan Abdullah</Authors>
+    <Company>Ramazan Abdullah</Company>
+    <Product>Clean Architecture Template (.NET Aspire)</Product>
+    <Copyright>Copyright © Ramazan Abdullah</Copyright>
   </PropertyGroup>
   <ItemGroup Condition="'$(MSBuildProjectExtension)' != '.dcproj'">
     <PackageReference Include="SonarAnalyzer.CSharp">
